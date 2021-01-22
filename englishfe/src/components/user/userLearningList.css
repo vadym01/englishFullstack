@@ -1,0 +1,37 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.learningListButton {
+  cursor: pointer;
+  background: none;
+  border: 1px solid grey;
+  border-radius: 25px;
+  color: black;
+  /* -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end; */
+  font-size: 1.2rem;
+  font-family: roboto;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+  /* transition: all 0.2s ease; */
+}
+
+.emptyLearningListContainer {
+  padding-top: 10%;
+  display: grid;
+  place-items: center;
+}
+
+.learningListButton:hover {
+  background: black;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.3s ease;
+}

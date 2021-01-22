@@ -1,0 +1,21 @@
+.addNewFileFormContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+}
+
+.newFileInput {
+  padding: 5px;
+  margin: 2px;
+}
+
+.newLearningUnitShow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.textAreaInput {
+  /* cols="30" rows="7" */
+}

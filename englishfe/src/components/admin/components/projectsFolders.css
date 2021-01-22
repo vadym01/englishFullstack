@@ -1,0 +1,18 @@
+#addFolder {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* border: 1px solid red; */
+}
+
+.formInputContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+  padding: 10px;
+}
+
+.inputField {
+  padding: 5px;
+  margin: 2px;
+}

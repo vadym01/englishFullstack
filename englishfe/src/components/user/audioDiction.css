@@ -1,0 +1,96 @@
+.show-false {
+  border: 0px;
+  appearance: none;
+  display: none;
+}
+
+.show-true {
+  border: red 1px solid;
+}
+
+/* .result-table head tr {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 400px;
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+} */
+
+/* * {
+  border: 1px solid red;
+} */
+.audioPlayer {
+  bottom: 0;
+}
+
+.generableFormContainer {
+  padding-top: 20px;
+}
+
+.generableFormContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inputField {
+  display: table;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.enabledInputField {
+  display: table;
+  align-items: center;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.disabledInputField {
+  pointer-events: none;
+  display: table;
+  align-items: center;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hintShow {
+  font-size: 0em;
+  transition-duration: 300ms;
+  transition-property: font-size;
+}
+
+.hintHidden {
+  font-size: 1em;
+  transition-duration: 300ms;
+  transition-property: font-size;
+}
+
+.inputLine {
+  outline: 0;
+  border-width: 0 1px 1px 0px;
+  border-color: black;
+}
+
+.infoActive {
+  /* display: inline-block; */
+  display: grid;
+  place-items: center;
+}
+
+.infoHidden {
+  display: none;
+}
+
+/* .learningListButton {
+  position: fixed;
+  top: 53px;
+  left: 15px;
+} */
+
+.exclamationCircle {
+  cursor: pointer;
+}
